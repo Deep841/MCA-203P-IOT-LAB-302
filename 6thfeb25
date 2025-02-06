@@ -1,0 +1,53 @@
+Big Data Lab Notes
+
+Weekly Task Submission
+	•	Deadline: 12-1 PM
+
+Dataset Creation
+	•	The simplest way to create a dataset is using an Excel Sheet (.xls).
+
+Graphs and Their Utility
+	•	Bar Graph: Shows peaks and depths, useful for analyzing patterns like temperature and student marks when data is fixed.
+	•	Line Chart: Suitable for comparing marks of two classes.
+	•	Scatter Diagram: Used to check data distribution.
+	•	No Clustering: Clusters may introduce bias in data.
+	•	Feature Selection: Essential for refining data analysis.
+
+Regression Analysis
+	•	Regression Line: Helps analyze bias in data after observing the dataset.
+
+Box Plot (Box Graph) Insights
+	•	Mean, Median, and Mode can be determined.
+	•	Minimum Value: Represented by the lower line.
+	•	Maximum Value: Represented by the upper line.
+	•	Rectangular Area: Indicates where most of the data lies.
+	•	Thick Line in the Rectangle: Represents the median, which may be at the center, above, or below.
+	•	If the thick line is above the center, most of the data lies in the lower part.
+	•	Box Plot Application: Useful for analyzing students’ marks distribution.
+
+ Scatter Graph for Prediction
+
+A scatter graph is used for prediction by identifying trends and relationships between two numerical variables.
+	•	It helps in finding correlations between independent and dependent variables.
+	•	If the points form a clear upward or downward trend, it indicates a positive or negative correlation.
+	•	No correlation: If points are scattered randomly, it means no relationship exists.
+	•	Trendline (Best-Fit Line): Can be added to make future predictions based on existing data.
+	•	Application: Used in predicting house prices based on area, stock market trends, weather forecasting, and student performance trends.
+
+ If-Else Condition in R (RStudio)
+ example : 
+ marks <- 75
+
+if (marks >= 50) {
+  print("Passed")
+} else {
+  print("Failed")
+}
+
+For Loop in R (RStudio)
+example : 
+
+# Print numbers from 1 to 5
+for (i in 1:5) {
+  print(i)
+}
